@@ -1,0 +1,10 @@
+version: '3'
+services:
+    api:
+        build: .
+        image: api/jade:v0.1
+        container_name: jade
+        ports:
+            - "9000:80"
+        volumes:
+            - './jadeapi:/sample-api/jadeapi'
