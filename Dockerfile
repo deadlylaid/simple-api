@@ -22,6 +22,8 @@ RUN set -ex \
 COPY . /sample-api/
 WORKDIR /sample-api/
 
+RUN pip3.7 install -e .
+
 RUN chmod 777 run.sh
 
 CMD '/sample-api/run.sh'

@@ -5,7 +5,6 @@ setup_requires = [
         ]
 
 install_requires = [
-        'ipython',
         ]
 
 setup(
