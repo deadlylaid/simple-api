@@ -1,10 +1,10 @@
 from setuptools import setup
 
 
-setup_requires = [
-        ]
-
 install_requires = [
+        'falcon',
+        'gunicorn',
+        'httpie',
         ]
 
 setup(
